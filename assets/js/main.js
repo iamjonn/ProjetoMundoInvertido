@@ -17,5 +17,11 @@ import { subscribeToHellfireClube } from './data/hellfire-clube.js'
 
         const id = await subscribeToHellfireClube(subscribe)
         alert(`Inscrição ${id} adicionada com sucesso!`)
+        
+        txtName.value= ""
+    txtEmail.value= ""
+    txtLevel.value= ""
+    txtCharacter.value= ""
+        
     })
 })()
